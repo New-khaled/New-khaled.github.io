@@ -1,0 +1,82 @@
+body{
+    user-select: none;
+}
+#input-el{
+    display: block;
+    background-color: gainsboro;
+    border: none;
+    font-size: larger;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    line-height: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+}
+li{
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    user-select: none;
+
+
+}
+#btn-add{
+    display: block;
+    background-color:  #AC485A;
+    border: none;
+    font-size: larger;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    line-height: 40px;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
+
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 320px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+#cat-img{
+    width: 150px;
+    margin: 20px;
+
+}
+#od-el{
+    list-style-type: none;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px;
+    flex-grow: 1;
+
+}
+li:hover{
+    background-color:#FFECC7 ;
+    cursor: pointer;
+}
+#btn-add:hover{
+    background-color: #432000;
+    cursor: pointer;
+}
